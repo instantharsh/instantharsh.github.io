@@ -34,8 +34,21 @@ h1, h2, h3, h4, h5 {
   color: #fff;
   font-weight: 200; }
 
+h1 {
+  width: 25ch;
+  
+  text-wrap: nowrap;
+  overflow: hidden;
+  animation: typing 1s steps(100) infinite alternate-reverse;
+  text-align: center;
+}
+
+@keyframes typing {
+ from { width: 10ch; }
+}
 h2 {
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 a {
   -webkit-transition: .3s all;
