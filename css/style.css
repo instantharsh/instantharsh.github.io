@@ -35,12 +35,12 @@ h1, h2, h3, h4, h5 {
   font-weight: 200; }
 
 h1 {
-  width: 25ch;
-  
-  text-wrap: nowrap;
+  width: 20ch;
+  text-align: center;
+  text-wrap: wrap; 
   overflow: hidden;
   animation: typing 1s steps(100) infinite alternate-reverse;
-  text-align: center;
+  
 }
 
 @keyframes typing {
