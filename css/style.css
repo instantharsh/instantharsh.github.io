@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5 {
   font-weight: 200; }
 
 h1 {
-  width: 20ch;
+  width: 25ch;
   text-align: center;
   text-wrap: wrap; 
   overflow: hidden;
